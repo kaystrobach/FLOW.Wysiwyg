@@ -17,43 +17,53 @@ class WysiwygEditorController extends AbstractWidgetController {
 	protected $buttonMap = [
 		'bold' => [
 			'cmd' => 'bold',
-			'icon' => 'glyphicon glyphicon-bold',
+			'icon' => 'fa fa-bold',
 			'text' => 'bold'
 		],
 		'createLink' => [
 			'cmd' => 'createLink',
-			'icon' => 'glyphicon glyphicon-link',
+			'icon' => 'fa fa-link',
 			'text' => 'createLink'
 		],
 		'removeLink' => [
 			'cmd' => 'removeLink',
-			'icon' => 'glyphicon glyphicon-link',
+			'icon' => 'fa fa-chain-broken',
 			'text' => 'removeLink'
 		],
 		'insertBlockQuote' => [
 			'cmd' => 'insertBlockQuote',
-			'icon' => 'glyphicon glyphicon-console',
+			'icon' => 'fa fa-quote-left',
 			'text' => 'insertBlockQuote'
 		],
 		'insertUnorderedList' => [
 			'cmd' => 'insertUnorderedList',
-			'icon' => 'glyphicon glyphicon-list',
+			'icon' => 'fa fa-list-ul',
 			'text' => 'insertUnorderedList'
 		],
 		'insertOrderedList' => [
 			'cmd' => 'insertOrderedList',
-			'icon' => 'glyphicon glyphicon-list',
+			'icon' => 'fa fa-list-ol',
 			'text' => 'insertOrderedList'
 		],
 		'outdentList' => [
 			'cmd' => 'outdentList',
-			'icon' => 'glyphicon glyphicon-indent-left',
+			'icon' => 'fa fa-outdent',
 			'text' => 'outdentList'
 		],
 		'indentList' => [
 			'cmd' => 'indentList',
-			'icon' => 'glyphicon glyphicon-indent-left',
+			'icon' => 'fa fa-indent',
 			'text' => 'indentList'
+		],
+		'undo' => [
+			'cmd' => 'undo',
+			'icon' => 'fa fa-undo',
+			'text' => 'undo'
+		],
+		'redo' => [
+			'cmd' => 'redo',
+			'icon' => 'fa fa-repeat',
+			'text' => 'redo'
 		]
 
 	];
