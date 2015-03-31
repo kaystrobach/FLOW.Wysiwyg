@@ -1,0 +1,14 @@
+{
+	"name":"kaystrobach/wysiwyg",
+	"type":"typo3-flow-package",
+	"description":"contains viewHelpers for easy inclusion of an rte",
+	"version":null,
+	"require":{
+		"typo3/flow":"*"
+	},
+	"autoload":{
+		"psr-0":{
+			"KayStrobach\\Wysiwyg":"Classes"
+		}
+	}
+}
