@@ -1,19 +1,27 @@
 <script src="{f:uri.resource(path:'Editor/dist/wysihtml-toolbar.min.js', package:'KayStrobach.Wysiwyg')}"></script>
 <script src="{f:uri.resource(path:'Editor/parser_rules/advanced_and_extended.js', package:'KayStrobach.Wysiwyg')}"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-
-<div id="toolbar-{config.id}" class="btn-group" role="group" >
-	<f:for each="{buttons}" as="button">
-		<a data-wysihtml5-command="{button.cmd}" class="btn btn-default" title="{button.text}">
-			<span class="{button.icon}"></span>
-		</a>
-	</f:for>
-	<div data-wysihtml5-dialog="createLink" style="display: none;">
-		<label>
-			Link:
-			<input data-wysihtml5-dialog-field="href" value="http://">
-		</label>
-		<a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
+<div class="row" id="toolbar-{config.id}">
+	<div class="col-md-6">
+		<div class="btn-group" role="group" >
+			<f:for each="{buttons}" as="button">
+				<a data-wysihtml5-command="{button.cmd}" class="btn btn-default" title="{button.text}">
+					<span class="{button.icon}"></span>
+				</a>
+			</f:for>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div data-wysihtml5-dialog="createLink" style="display: none;">
+			<div class="input-group">
+				<input type="text" class="form-control" data-wysihtml5-dialog-field="href" value="http://">
+				<span class="input-group-btn">
+					<a data-wysihtml5-dialog-action="save" class="btn btn-success">OK</a>
+					<a data-wysihtml5-dialog-action="cancel" class="btn btn-default">Cancel</a>
+				</span>
+			</div>
+		</div>
 	</div>
 </div>
 
