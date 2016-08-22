@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <div class="row" id="toolbar-{config.id}">
-	<div class="col-md-6">
+	<div class="col-md-12">
 		<div class="btn-group" role="group" >
 			<f:for each="{buttons}" as="button">
 				<a data-wysihtml5-command="{button.cmd}" class="btn btn-default" title="{button.text}">
@@ -12,7 +12,7 @@
 			</f:for>
 		</div>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-12">
 		<div data-wysihtml5-dialog="createLink" style="display: none;">
 			<div class="input-group">
 				<input type="text" class="form-control" data-wysihtml5-dialog-field="href" value="http://">
