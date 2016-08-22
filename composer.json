@@ -2,7 +2,7 @@
 	"name":"kaystrobach/wysiwyg",
 	"type":"typo3-flow-package",
 	"description":"contains viewHelpers for easy inclusion of an rte",
-	"license": 'MIT',
+	"license": "MIT",
 	"require":{
 		"typo3/flow":"*"
 	},
