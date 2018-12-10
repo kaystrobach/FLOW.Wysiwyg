@@ -10,7 +10,7 @@ namespace KayStrobach\Wysiwyg\ViewHelpers\Widget\Controller;
 
 
 use TYPO3\Fluid\Core\Widget\AbstractWidgetController;
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 
 
 class WysiwygEditorController extends AbstractWidgetController {

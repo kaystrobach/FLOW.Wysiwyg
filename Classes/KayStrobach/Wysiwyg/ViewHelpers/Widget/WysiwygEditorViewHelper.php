@@ -2,7 +2,7 @@
 namespace KayStrobach\Wysiwyg\ViewHelpers\Widget;
 
 use TYPO3\Fluid\Core\Widget\AbstractWidgetViewHelper;
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 
 
 class WysiwygEditorViewHelper extends AbstractWidgetViewHelper {
