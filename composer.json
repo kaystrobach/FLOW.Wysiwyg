@@ -1,14 +1,19 @@
 {
-	"name":"kaystrobach/wysiwyg",
-	"type":"typo3-flow-package",
-	"description":"contains viewHelpers for easy inclusion of an rte",
-	"license": "MIT",
-	"require":{
-		"typo3/flow":"*"
-	},
-	"autoload":{
-		"psr-0":{
-			"KayStrobach\\Wysiwyg":"Classes"
-		}
-	}
+    "name": "kaystrobach/wysiwyg",
+    "type": "typo3-flow-package",
+    "description": "contains viewHelpers for easy inclusion of an rte",
+    "license": "MIT",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "KayStrobach\\Wysiwyg": "Classes"
+        }
+    },
+    "extra": {
+        "applied-flow-migrations": [
+            "TYPO3.FLOW3-201201261636"
+        ]
+    }
 }
