@@ -1,7 +1,7 @@
 <?php
 namespace KayStrobach\Wysiwyg\ViewHelpers\Widget;
 
-use TYPO3\Fluid\Core\Widget\AbstractWidgetViewHelper;
+use Neos\FluidAdaptor\Core\Widget\AbstractWidgetViewHelper;
 use Neos\Flow\Annotations as Flow;
 
 

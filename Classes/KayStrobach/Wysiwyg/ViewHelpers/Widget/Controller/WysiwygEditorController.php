@@ -9,7 +9,7 @@
 namespace KayStrobach\Wysiwyg\ViewHelpers\Widget\Controller;
 
 
-use TYPO3\Fluid\Core\Widget\AbstractWidgetController;
+use Neos\FluidAdaptor\Core\Widget\AbstractWidgetController;
 use Neos\Flow\Annotations as Flow;
 
 
