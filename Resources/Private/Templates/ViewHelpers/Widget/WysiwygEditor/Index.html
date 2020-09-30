@@ -27,8 +27,9 @@
 
 <script type="text/javascript">
 	window.addEventListener("load", function load(event){
-		var editor = new wysihtml5.Editor('{config.id}', {
-			toolbar: 'toolbar-{config.id}',
+		var configId = "{config.id}";
+		var editor = new wysihtml5.Editor(configId, {
+			toolbar: 'toolbar-' + configId,
 			parserRules:  wysihtml5ParserRules // defined in file parser rules javascript
 		});
 	});
